@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "56706689152",
+    "firebase_url": "https://icollege-9d197.firebaseio.com",
+    "project_id": "icollege-9d197",
+    "storage_bucket": "icollege-9d197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56706689152:android:04ee9aef09f1dc10d2de65",
+        "android_client_info": {
+          "package_name": "com.example.icollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56706689152-h00qd7dp60i3dem20o2q0b37j5adffl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEKkQWn1rv8Jns8hsU-XLg957pAnLpae4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56706689152-h00qd7dp60i3dem20o2q0b37j5adffl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

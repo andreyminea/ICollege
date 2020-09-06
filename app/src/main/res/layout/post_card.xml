@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    android:elevation="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    card_view:cardUseCompatPadding="true"
+    android:backgroundTint="#DDD">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/cardUserImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:elevation="10dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/cardUserName"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:text="Mircea Basescu"/>
+
+        <TextView
+            android:id="@+id/cardClassName"
+            android:layout_below="@id/cardUserImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Class Example Year 2 B"/>
+
+        <TextView
+            android:id="@+id/cardPost"
+            android:layout_below="@id/cardClassName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Hello kids!"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cardDownloadBtn"
+            android:layout_below="@id/cardPost"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Download file"/>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
